@@ -82,9 +82,11 @@ a {
     background-color: #3882F6;
     color: white;
     padding: 8px 16px;
-    width: 100px;
-    height: 35px;
+    width: 150px;
+    height: 52.5px;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,3 +165,30 @@ a {
 
 
 /*Noww to the blue rounded box!*/
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounded-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 2000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.rounded-box .text {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.rounded-box .text p {
+    font-weight: normal;
+}
