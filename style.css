@@ -97,6 +97,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-bottom: 40px;
 }
 
@@ -119,7 +120,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    gap: 8px;
 }
 
 .box {
@@ -129,10 +130,9 @@ a {
     border: 3px solid #3882F6;
 }
 
-.box p {
+.item .text {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
     width: 150px;
-    height: 150px;
 }
