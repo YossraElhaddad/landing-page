@@ -110,16 +110,14 @@ a {
 
 .sub-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+    justify-content: space-between;
+    gap: 100px;
 }
 
 .item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 8px;
 }
 
@@ -134,5 +132,5 @@ a {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
-    width: 150px;
+    width: 156px;
 }
