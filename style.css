@@ -8,14 +8,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     background-color: #1F2937;
+    padding-bottom: 40px;
 }
 
 .top-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 0;
 }
 
 .logo {
@@ -25,7 +27,8 @@
 
 .header-links {
     display: flex;
-    justify-content: space-between;
+    padding-top: 0;
+    gap: 16px;
 }
 
 li {
@@ -34,6 +37,13 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
 }
 
 .header-box {
@@ -46,19 +56,21 @@ a {
     align-items: center;
     justify-content: center;
     background-color: grey;
-    width: 100px;
-    height: 70px;
+    width: 400px;
+    height: 200px;
 }
 
 .image-placeholder p {
     color: #E5E7EB;
     font-size: 18px;
+    text-align: center;
 }
 
-.header-box h1 {
+.header-box strong {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 400;
+    font-weight: 900;
+    margin-bottom: -14px;
 }
 
 .header-box p,
@@ -68,7 +80,14 @@ a {
 }
 
 .header-box button {
-    border-radius: 25px;
+    border-radius: 3px;
     background-color: #3882F6;
     color: white;
+    padding: 8px 16px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
