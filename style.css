@@ -134,3 +134,32 @@ a {
     text-align: center;
     width: 156px;
 }
+
+
+/*Now to the quote!*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 36px;
+}
+
+.quote p {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 1000px;
+}
+
+.quote strong {
+    font-size: 24px;
+    text-align: right;
+    margin: auto;
+}
+
+
+/*Noww to the blue rounded box!*/
